@@ -13,7 +13,7 @@
             text-align: center;
             color: white;
         }
-        .locked{
+        .forRoll{
             background-color: yellow;
             color: black;
         }
@@ -35,7 +35,10 @@
     <div id="_$4" class="goRight"></div>
     <div id="_$5" class="goRight"></div>
 <br />
+    Number of ReRolls:
+    <input type="number" value="1" id="reRollsQuantity" />
+    <br />
 <input type="button" onclick="roll()" id='roll' value="Roll" />
-<input type="button" onclick="reRoll()" value="ReRoll" />
+<input type="button" onclick="reRoll()" id='reRoll' value="ReRoll" />
 </body>
 </html>
